@@ -19,6 +19,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="Create Update .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlsdfca5:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlsdfca5</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Create Update .sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery1.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlsdfca5:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>sqlsdfca5</AssociatedConnSrvName>
