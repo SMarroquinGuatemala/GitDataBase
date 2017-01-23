@@ -15,6 +15,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName />
         </ConnectionNode>
+        <ConnectionNode Name="tfssdfca2:SANDIEGO\dmarroquin">
+          <Created>2017-01-23T08:58:48.1057587-06:00</Created>
+          <Type>SQL</Type>
+          <Server>tfssdfca2</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>DbRecursosHumanos</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
@@ -24,6 +36,12 @@
           <AssociatedConnSrvName>sqlsdfca5</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Create Update .sql</FullPath>
+        </FileNode>
+        <FileNode Name="references.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tfssdfca2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tfssdfca2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>references.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery1.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlsdfca5:True</AssociatedConnectionMoniker>
