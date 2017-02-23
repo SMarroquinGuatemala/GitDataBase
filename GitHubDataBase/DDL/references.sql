@@ -1,7 +1,7 @@
-USE dbsolidarismo
-	GO
+	USE DbLaboratorio
+		GO
 	
-	DECLARE @VTableName VARCHAR(100) ='TblSociosCuotas'
+	DECLARE @VTableName VARCHAR(100) ='TblDatosPorContratista'
 
 	SELECT b.name 
 	FROM sys.sql_expression_dependencies a

@@ -1,0 +1,4 @@
+USE [master]
+GO
+CREATE LOGIN [SANDIEGO\tiprogramador] FROM WINDOWS WITH DEFAULT_DATABASE=[DbLaboratorio]
+GO

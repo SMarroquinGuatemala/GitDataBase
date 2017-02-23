@@ -1,8 +1,8 @@
-	USE DbRecursosHumanos
+	USE DbLaboratorio
 	GO
 	
 	SET NOCOUNT ON
-	DECLARE @VTable VARCHAR(500)='TBLHISTORIASALARIOS'
+	DECLARE @VTable VARCHAR(500)='[TblSulfito]'
 	DECLARE @MaxRowIDColumns	INT =0
 	DECLARE @VColumns AS TABLE
 	(
@@ -51,10 +51,10 @@
 	AND A.indid =1
 	SELECT @MaxRowIDKeys= MAX(RowID) FROM @VKeys
 	
-	SELECT @SColumns= COALESCE(@SColumns+name,'')+'=@'+name+CHAR(13) + CASE WHEN @MaxRowIDColumns=RowID THEN '' ELSE  ',' END 
+	SELECT @SColumns= COALESCE(@SColumns+name,'')+'=@P'+name+CHAR(13) + CASE WHEN @MaxRowIDColumns=RowID THEN '' ELSE  ',' END 
 	FROM @VColumns
 	
-	SELECT @SKeys= COALESCE(@SKeys+name ,'')+'=@'+name +CHAR(13)+ CASE WHEN @MaxRowIDKeys=RowID THEN  '' ELSE  'AND ' END 
+	SELECT @SKeys= COALESCE(@SKeys+name ,'')+'=@P'+name +CHAR(13)+ CASE WHEN @MaxRowIDKeys=RowID THEN  '' ELSE  'AND ' END 
 	FROM @VKeys
 	
 	--SELECT  *
@@ -71,7 +71,7 @@
 	WHERE object_id =OBJECT_ID(@VTable,N'U')
 	AND NOT a.name LIKE '%CREACION%' AND NOT a.name LIKE '%MODIFICACION%' 
 	
-	SELECT @SParameters = COALESCE(@SParameters,'')+ '@'+a.name +' '+b.name + 
+	SELECT @SParameters = COALESCE(@SParameters,'')+ '@P'+a.name +' '+b.name + 
 	CASE WHEN NOT C.type IN (3,4) THEN  ''ELSE  '('+ 
 					CASE WHEN  C.type =4 THEN CAST(A.precision AS VARCHAR)+','+ CAST(A.SCALE AS VARCHAR) ELSE CAST(A.max_length AS VARCHAR)  END
 	+')' END+CHAR(13) + CASE WHEN @MaxRowIDParameters = ROW_NUMBER()OVER (ORDER BY column_id ) THEN '' ELSE   ',' END
@@ -88,6 +88,8 @@
 	--WHERE object_id =OBJECT_ID(@VTable,N'U')
 	--AND NOT a.name LIKE '%CREACION%' AND NOT a.name LIKE '%MODIFICACION%' 
 	--ORDER BY A.column_id
+
+	
 	
 	PRINT 'DECLARE '
 	PRINT @SParameters
