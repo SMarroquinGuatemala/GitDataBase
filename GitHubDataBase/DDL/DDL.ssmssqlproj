@@ -43,6 +43,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="addrolemember.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlsdfca5:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlsdfca5</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>addrolemember.sql</FullPath>
+        </FileNode>
         <FileNode Name="Create Login.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tfssdfca2:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>tfssdfca2</AssociatedConnSrvName>
@@ -55,17 +61,23 @@
           <AssociatedConnUserName />
           <FullPath>Create Update .sql</FullPath>
         </FileNode>
+        <FileNode Name="Create User.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tfssdfca2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tfssdfca2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Create User.sql</FullPath>
+        </FileNode>
+        <FileNode Name="droprolemember.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tfssdfca2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tfssdfca2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>droprolemember.sql</FullPath>
+        </FileNode>
         <FileNode Name="references.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlsdfca5:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>sqlsdfca5</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>references.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlsdfca5:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>sqlsdfca5</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
         </FileNode>
         <FileNode Name="Test.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlsdfca5:True</AssociatedConnectionMoniker>
