@@ -2,3 +2,15 @@ USE [master]
 GO
 CREATE LOGIN [SANDIEGO\tiprogramador] FROM WINDOWS WITH DEFAULT_DATABASE=[DbLaboratorio]
 GO
+
+USE [master]
+GO
+CREATE LOGIN [PowerBIRecursosHumanos] WITH PASSWORD=N'@dm1nRRHH', DEFAULT_DATABASE=[DbRecursosHumanos], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF
+GO
+
+
+
+
+
+
+
