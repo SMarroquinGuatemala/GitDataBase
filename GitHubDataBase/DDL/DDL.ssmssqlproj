@@ -97,6 +97,12 @@
           <AssociatedConnUserName />
           <FullPath>references.sql</FullPath>
         </FileNode>
+        <FileNode Name="sysjobs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tfssdfca2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tfssdfca2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sysjobs.sql</FullPath>
+        </FileNode>
         <FileNode Name="Test.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlsdfca5:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>sqlsdfca5</AssociatedConnSrvName>
