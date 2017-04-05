@@ -49,6 +49,12 @@
           <AssociatedConnUserName />
           <FullPath>addrolemember.sql</FullPath>
         </FileNode>
+        <FileNode Name="Alter Table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlsdfca5:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlsdfca5</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Alter Table.sql</FullPath>
+        </FileNode>
         <FileNode Name="Busqueda de texto.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tfssdfca2:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>tfssdfca2</AssociatedConnSrvName>
@@ -60,6 +66,12 @@
           <AssociatedConnSrvName>tfssdfca2</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Create Login.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create Trigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlsdfca5:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlsdfca5</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Create Trigger.sql</FullPath>
         </FileNode>
         <FileNode Name="Create Update .sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlsdfca5:True</AssociatedConnectionMoniker>
