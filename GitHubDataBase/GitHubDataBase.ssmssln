@@ -7,14 +7,17 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DDL", "DDL\DDL.ssmssqlproj"
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Functions", "Functions\Functions.ssmssqlproj", "{438FF1BF-9718-415D-9974-812CA0B8B3C6}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SugarIndustryGitHub", "SugarIndustryGitHub\SugarIndustryGitHub.ssmssqlproj", "{6AA6127E-1E05-489A-8483-F70D43476879}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{114743B0-1F71-4ED6-B2C9-F3876CDF5BF6}.Default|Default.ActiveCfg = Default
-		{105E64AD-A1F3-424F-94D0-62393A82F7CE}.Default|Default.ActiveCfg = Default
 		{438FF1BF-9718-415D-9974-812CA0B8B3C6}.Default|Default.ActiveCfg = Default
+		{8C2FD8A7-7CD0-4B80-B6B4-7DB9803A0538}.Default|Default.ActiveCfg = Default
+		{6AA6127E-1E05-489A-8483-F70D43476879}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
