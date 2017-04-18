@@ -7,3 +7,5 @@
 	and text like '%TblPromedioCorteFrenteSemana%'
 	group by a.Name
 	order by a.Name
+
+

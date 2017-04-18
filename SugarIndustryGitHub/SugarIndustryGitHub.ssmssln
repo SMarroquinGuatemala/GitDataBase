@@ -3,18 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # SQL Server Management Studio Solution File, Format Version 13.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DDL", "DDL\DDL.ssmssqlproj", "{114743B0-1F71-4ED6-B2C9-F3876CDF5BF6}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Functions", "Functions\Functions.ssmssqlproj", "{438FF1BF-9718-415D-9974-812CA0B8B3C6}"
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Bascula", "Bascula\Bascula.ssmssqlproj", "{5CA61B75-D6CF-43D4-9EC8-C43CB9A143DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{114743B0-1F71-4ED6-B2C9-F3876CDF5BF6}.Default|Default.ActiveCfg = Default
-		{105E64AD-A1F3-424F-94D0-62393A82F7CE}.Default|Default.ActiveCfg = Default
-		{438FF1BF-9718-415D-9974-812CA0B8B3C6}.Default|Default.ActiveCfg = Default
+		{5CA61B75-D6CF-43D4-9EC8-C43CB9A143DB}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
