@@ -1,7 +1,7 @@
 	USE DbLaboratorio
 		GO
 	
-	DECLARE @VTableName VARCHAR(100) ='TblDatosPorContratista'
+	DECLARE @VTableName VARCHAR(100) ='TblAsistenciaCorte'
 
 	SELECT b.name 
 	FROM sys.sql_expression_dependencies a
