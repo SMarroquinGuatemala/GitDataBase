@@ -1,0 +1,1 @@
+	ALTER LOGIN PowerBIRecursosHumanos WITH PASSWORD = 'S@nDiego';  

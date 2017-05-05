@@ -3,6 +3,18 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
+        <ConnectionNode Name="(local):SANDIEGO\dmarroquin">
+          <Created>2017-05-05T08:50:50.1880228-06:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="sqlsdfca5:SANDIEGO\dmarroquin">
           <Created>2017-01-11T09:14:55.716283-06:00</Created>
           <Type>SQL</Type>
@@ -54,6 +66,12 @@
           <AssociatedConnSrvName>sqlsdfca5</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Alter Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AlterLoginPassword.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AlterLoginPassword.sql</FullPath>
         </FileNode>
         <FileNode Name="Busqueda de texto.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tfssdfca2:True</AssociatedConnectionMoniker>
