@@ -3,6 +3,18 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
+        <ConnectionNode Name="SQLSDFCA5:SANDIEGO\dmarroquin">
+          <Created>2017-05-10T11:14:29.3525552-06:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLSDFCA5</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>DbRecursosHumanos</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="tfssdfca2:SANDIEGO\dmarroquin">
           <Created>2017-04-05T12:07:22.7263651-06:00</Created>
           <Type>SQL</Type>
@@ -24,6 +36,12 @@
           <AssociatedConnSrvName>tfssdfca2</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Coallesce concat string many columns.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Ejecutar procedimiento con parametro tipo tabla.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLSDFCA5:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLSDFCA5</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Ejecutar procedimiento con parametro tipo tabla.sql</FullPath>
         </FileNode>
         <FileNode Name="Permissions.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tfssdfca2:True</AssociatedConnectionMoniker>
