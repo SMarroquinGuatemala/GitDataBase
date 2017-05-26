@@ -2,9 +2,9 @@
 	go
 
 	select a.Name  --, b.Text
-	from sysobjects a, syscomments b
-	where a.Id = b.Id
-	and text like '%TblPromedioCorteFrenteSemana%'
+	from sysobjects a 
+	INNER JOIN  syscomments b ON a.Id = b.Id
+	WHERE text like '%TblPromedioCorteFrenteSemana%'
 	group by a.Name
 	order by a.Name
 
