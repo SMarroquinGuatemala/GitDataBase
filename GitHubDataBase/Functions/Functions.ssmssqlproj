@@ -55,6 +55,12 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery1.sql</FullPath>
         </FileNode>
+        <FileNode Name="Usuarios Huerfanos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLSDFCA5:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLSDFCA5</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Usuarios Huerfanos.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
