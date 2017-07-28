@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DbPrincipals">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="SQLSDFCA5:SANDIEGO\dmarroquin">
+          <Created>2014-03-26T09:12:43.3334968-06:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLSDFCA5</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="SQLTRFCA6:SANDIEGO\dmarroquin">
+          <Created>2014-03-28T15:41:12.1553036-06:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLTRFCA6</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>DbProductoTerminado</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Grant.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLSDFCA5:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLSDFCA5</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Grant.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTrigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLSDFCA5:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLSDFCA5</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTrigger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Alter Table add Columns.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLSDFCA5:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLSDFCA5</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Alter Table add Columns.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DropColumn.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLTRFCA6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLTRFCA6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DropColumn.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Grant Execute.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLSDFCA5:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLSDFCA5</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Grant Execute.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
