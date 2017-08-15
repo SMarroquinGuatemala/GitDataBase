@@ -9,6 +9,10 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Functions", "Functions\Func
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SugarIndustryGitHub", "SugarIndustryGitHub\SugarIndustryGitHub.ssmssqlproj", "{6AA6127E-1E05-489A-8483-F70D43476879}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DataDefinitionLanguage (DDL)", "DataDefinitionLanguage (DDL)\DataDefinitionLanguage (DDL).ssmssqlproj", "{0A8C7242-CB8E-47F9-9257-AAFC39CDD158}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DbPrincipals", "DbPrincipals\DbPrincipals.ssmssqlproj", "{866413C3-707C-492B-AA57-52EA3392E68D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -16,8 +20,10 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{114743B0-1F71-4ED6-B2C9-F3876CDF5BF6}.Default|Default.ActiveCfg = Default
 		{438FF1BF-9718-415D-9974-812CA0B8B3C6}.Default|Default.ActiveCfg = Default
-		{8C2FD8A7-7CD0-4B80-B6B4-7DB9803A0538}.Default|Default.ActiveCfg = Default
 		{6AA6127E-1E05-489A-8483-F70D43476879}.Default|Default.ActiveCfg = Default
+		{22DBEBCA-8A9A-4785-93C3-3AE8248B52A1}.Default|Default.ActiveCfg = Default
+		{0A8C7242-CB8E-47F9-9257-AAFC39CDD158}.Default|Default.ActiveCfg = Default
+		{866413C3-707C-492B-AA57-52EA3392E68D}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
