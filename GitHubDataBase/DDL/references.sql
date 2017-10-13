@@ -1,5 +1,5 @@
 	USE DbLaboratorio
-		GO
+	GO
 	
 	DECLARE @VTableName VARCHAR(100) ='TblAsistenciaCorte'
 

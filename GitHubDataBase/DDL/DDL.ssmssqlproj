@@ -115,6 +115,12 @@
           <AssociatedConnUserName />
           <FullPath>droprolemember.sql</FullPath>
         </FileNode>
+        <FileNode Name="Execute On Schema.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqlsdfca5:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqlsdfca5</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Execute On Schema.sql</FullPath>
+        </FileNode>
         <FileNode Name="OPENQUERY.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
