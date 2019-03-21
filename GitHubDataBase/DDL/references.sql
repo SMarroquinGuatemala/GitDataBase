@@ -1,7 +1,7 @@
-	USE DbLaboratorio
+	USE dbproductoterminado
 	GO
 	
-	DECLARE @VTableName VARCHAR(100) ='TblAsistenciaCorte'
+	DECLARE @VTableName VARCHAR(100) ='TblWDetalledeproductosmaqxsa'
 
 	SELECT b.name 
 	FROM sys.sql_expression_dependencies a
