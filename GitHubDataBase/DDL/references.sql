@@ -1,7 +1,7 @@
-	USE dbproductoterminado
+	USE dbrecursoshumanos
 	GO
 	
-	DECLARE @VTableName VARCHAR(100) ='TblWDetalledeproductosmaqxsa'
+	DECLARE @VTableName VARCHAR(100) ='TblRespuestasEncuesta'
 
 	SELECT b.name 
 	FROM sys.sql_expression_dependencies a
